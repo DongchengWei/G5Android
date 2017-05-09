@@ -1,0 +1,119 @@
+Updated file D:\android\myworkspace\AutoTest\build.xml
+Buildfile: D:\android\myworkspace\AutoTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at D:\android\android-sdk-windows
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.1.0
+     [echo] Resolving Build Target for AutoTest...
+[getuitarget] Project Target:   Android 5.1.1
+[getuitarget] API level:        22
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\android\myworkspace\AutoTest\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\android\myworkspace\AutoTest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\android\myworkspace\AutoTest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\android\myworkspace\AutoTest\bin\AutoTest.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.bt.BtConnectDisconnect:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+运行用例名称：testDemo
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS: class=com.bt.BtConnectDisconnect
+
+正在运行第1个用例！
+INSTRUMENTATION_STATUS: current=1
+
+运行状态：运行OK！
+INSTRUMENTATION_STATUS_CODE: 1
+
+==================================================
+
+=========G5Android AutoTest v0.0.1================
+
+========case:BT connect and disconnect============
+
+==================================================
+
+=========deviceNameStr = Nexus 6
+
+=========testTimes = 2
+
+=========connect ok ...
+
+=========disconnect ok ...
+
+=========>>>>Test Pass:1 times,Total Test:1<<
+
+=========connect ok ...
+
+=========disconnect ok ...
+
+=========>>>>Test Pass:2 times,Total Test:2<<
+
+=========>>>>Test Pass:2 times,Total Test:2<<
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+运行用例名称：testDemo
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS: class=com.bt.BtConnectDisconnect
+
+正在运行第1个用例！
+INSTRUMENTATION_STATUS: current=1
+
+运行状态：运行OK！
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 56.488
+
+
+
+OK (1 test)
+
+
+
+
+
+
+---------------运行状态：运行错误！
+
+INSTRUMENTATION_STATUS_CODE: -1
+
